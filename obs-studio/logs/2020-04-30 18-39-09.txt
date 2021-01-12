@@ -1,0 +1,195 @@
+18:39:09.591: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+18:39:09.591: CPU Speed: 2584.508MHz
+18:39:09.591: Physical Cores: 4, Logical Cores: 8
+18:39:09.591: Physical Memory: 15752MB Total, 11701MB Free
+18:39:09.591: Kernel Version: Linux 5.3.0-40-generic
+18:39:09.591: Distribution: "Ubuntu" "19.10"
+18:39:09.592: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.5
+18:39:09.593: Portable mode: false
+18:39:09.667: OBS 25.0.8 (linux)
+18:39:09.667: ---------------------------------
+18:39:09.691: ---------------------------------
+18:39:09.691: audio settings reset:
+18:39:09.691: 	samples per sec: 44100
+18:39:09.691: 	speakers:        2
+18:39:09.702: ---------------------------------
+18:39:09.702: Initializing OpenGL...
+18:39:09.733: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 
+18:39:09.733: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 19.2.8, shading language 4.50
+18:39:09.746: ---------------------------------
+18:39:09.747: video settings reset:
+18:39:09.747: 	base resolution:   1920x1080
+18:39:09.747: 	output resolution: 1280x720
+18:39:09.747: 	downscale filter:  Bicubic
+18:39:09.747: 	fps:               30/1
+18:39:09.747: 	format:            NV12
+18:39:09.747: 	YUV mode:          601/Partial
+18:39:09.747: NV12 texture support not available
+18:39:09.750: Audio monitoring device:
+18:39:09.750: 	name: Default
+18:39:09.750: 	id: default
+18:39:09.750: ---------------------------------
+18:39:09.752: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+18:39:09.868: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:39:09.868: No blackmagic support
+18:39:09.991: FFMPEG VAAPI supported
+18:39:10.016: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+18:39:10.016: 
+18:39:10.016: Couldn't find VLC installation, VLC video source disabled
+18:39:10.016: ---------------------------------
+18:39:10.016:   Loaded Modules:
+18:39:10.016:     vlc-video.so
+18:39:10.016:     text-freetype2.so
+18:39:10.016:     rtmp-services.so
+18:39:10.016:     obs-x264.so
+18:39:10.016:     obs-transitions.so
+18:39:10.016:     obs-outputs.so
+18:39:10.016:     obs-libfdk.so
+18:39:10.016:     obs-filters.so
+18:39:10.016:     obs-ffmpeg.so
+18:39:10.016:     linux-v4l2.so
+18:39:10.016:     linux-pulseaudio.so
+18:39:10.016:     linux-jack.so
+18:39:10.016:     linux-decklink.so
+18:39:10.016:     linux-capture.so
+18:39:10.016:     linux-alsa.so
+18:39:10.016:     image-source.so
+18:39:10.016:     frontend-tools.so
+18:39:10.016:     decklink-ouput-ui.so
+18:39:10.016: ---------------------------------
+18:39:10.016: ==== Startup complete ===============================================
+18:39:10.017: Service '' not found
+18:39:10.021: All scene data cleared
+18:39:10.021: ------------------------------------------------
+18:39:10.024: pulse-input: Server name: 'pulseaudio 13.0'
+18:39:10.024: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+18:39:10.024: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+18:39:10.024: [Loaded global audio device]: 'Desktop Audio'
+18:39:10.100: pulse-input: Server name: 'pulseaudio 13.0'
+18:39:10.102: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+18:39:10.102: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+18:39:10.102: [Loaded global audio device]: 'Mic/Aux'
+18:39:10.105: xshm-input: Geometry 1920x1080 @ 0,0
+18:39:10.106: v4l2-input: Start capture from /dev/video0
+18:39:10.223: v4l2-input: Input: 0
+18:39:10.227: v4l2-input: Resolution: 1280x720
+18:39:10.227: v4l2-input: Pixelformat: VYUY
+18:39:10.227: v4l2-input: Linesize: 2560 Bytes
+18:39:10.231: v4l2-input: Framerate: 10,00 fps
+18:39:10.235: pulse-input: Server name: 'pulseaudio 13.0'
+18:39:10.236: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+18:39:10.236: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+18:39:10.237: Switched to scene 'Scene'
+18:39:10.237: ------------------------------------------------
+18:39:10.237: Loaded scenes:
+18:39:10.237: - scene 'Scene':
+18:39:10.238:     - source: 'Screen Capture (XSHM)' (xshm_input)
+18:39:10.238:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+18:39:10.238:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+18:39:10.238: ------------------------------------------------
+18:39:10.663: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+18:39:10.663: 
+18:40:01.121: Starting recording due to hotkey
+18:40:01.123: ---------------------------------
+18:40:01.123: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+18:40:01.123: [x264 encoder: 'simple_h264_recording'] profile: high
+18:40:01.126: [x264 encoder: 'simple_h264_recording'] settings:
+18:40:01.126: 	rate_control: CRF
+18:40:01.126: 	bitrate:      0
+18:40:01.126: 	buffer size:  0
+18:40:01.126: 	crf:          21
+18:40:01.126: 	fps_num:      30
+18:40:01.126: 	fps_den:      1
+18:40:01.126: 	width:        1280
+18:40:01.126: 	height:       720
+18:40:01.126: 	keyint:       250
+18:40:01.126: 
+18:40:01.136: libfdk_aac encoder created
+18:40:01.136: libfdk_aac bitrate: 192, channels: 2
+18:40:01.140: ==== Recording Start ===============================================
+18:40:01.140: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/tferrer/2020-04-30 18-40-01.mp4'...
+18:40:22.073: Stopping recording due to hotkey
+18:40:22.989: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/tferrer/2020-04-30 18-40-01.mp4' stopped
+18:40:22.989: Output 'simple_file_output': stopping
+18:40:22.989: Output 'simple_file_output': Total frames output: 629
+18:40:22.989: Output 'simple_file_output': Total drawn frames: 656
+18:40:22.989: ==== Recording Stop ================================================
+18:40:23.000: libfdk_aac encoder destroyed
+18:41:17.044: Starting recording due to hotkey
+18:41:17.049: ---------------------------------
+18:41:17.049: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+18:41:17.049: [x264 encoder: 'simple_h264_recording'] profile: high
+18:41:17.049: [x264 encoder: 'simple_h264_recording'] settings:
+18:41:17.049: 	rate_control: CRF
+18:41:17.049: 	bitrate:      0
+18:41:17.049: 	buffer size:  0
+18:41:17.049: 	crf:          21
+18:41:17.049: 	fps_num:      30
+18:41:17.049: 	fps_den:      1
+18:41:17.049: 	width:        1280
+18:41:17.049: 	height:       720
+18:41:17.049: 	keyint:       250
+18:41:17.049: 
+18:41:17.053: libfdk_aac encoder created
+18:41:17.053: libfdk_aac bitrate: 192, channels: 2
+18:41:17.056: ==== Recording Start ===============================================
+18:41:17.056: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/tferrer/2020-04-30 18-41-17.mp4'...
+18:41:43.861: Stopping recording due to hotkey
+18:41:44.798: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/tferrer/2020-04-30 18-41-17.mp4' stopped
+18:41:44.798: Output 'simple_file_output': stopping
+18:41:44.798: Output 'simple_file_output': Total frames output: 805
+18:41:44.798: Output 'simple_file_output': Total drawn frames: 832
+18:41:44.799: ==== Recording Stop ================================================
+18:41:44.805: libfdk_aac encoder destroyed
+18:49:24.363: Starting recording due to hotkey
+18:49:24.368: ---------------------------------
+18:49:24.368: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+18:49:24.368: [x264 encoder: 'simple_h264_recording'] profile: high
+18:49:24.368: [x264 encoder: 'simple_h264_recording'] settings:
+18:49:24.368: 	rate_control: CRF
+18:49:24.368: 	bitrate:      0
+18:49:24.368: 	buffer size:  0
+18:49:24.368: 	crf:          21
+18:49:24.368: 	fps_num:      30
+18:49:24.368: 	fps_den:      1
+18:49:24.368: 	width:        1280
+18:49:24.368: 	height:       720
+18:49:24.368: 	keyint:       250
+18:49:24.368: 
+18:49:24.376: libfdk_aac encoder created
+18:49:24.377: libfdk_aac bitrate: 192, channels: 2
+18:49:24.385: ==== Recording Start ===============================================
+18:49:24.385: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/tferrer/2020-04-30 18-49-24.mp4'...
+18:49:59.464: Stopping recording due to hotkey
+18:50:00.398: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/tferrer/2020-04-30 18-49-24.mp4' stopped
+18:50:00.398: Output 'simple_file_output': stopping
+18:50:00.398: Output 'simple_file_output': Total frames output: 1054
+18:50:00.398: Output 'simple_file_output': Total drawn frames: 1080
+18:50:00.399: ==== Recording Stop ================================================
+18:50:00.412: libfdk_aac encoder destroyed
+19:07:47.118: Starting recording due to hotkey
+19:07:47.124: ---------------------------------
+19:07:47.124: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+19:07:47.124: [x264 encoder: 'simple_h264_recording'] profile: high
+19:07:47.124: [x264 encoder: 'simple_h264_recording'] settings:
+19:07:47.124: 	rate_control: CRF
+19:07:47.124: 	bitrate:      0
+19:07:47.124: 	buffer size:  0
+19:07:47.124: 	crf:          21
+19:07:47.124: 	fps_num:      30
+19:07:47.124: 	fps_den:      1
+19:07:47.124: 	width:        1280
+19:07:47.124: 	height:       720
+19:07:47.124: 	keyint:       250
+19:07:47.124: 
+19:07:47.131: libfdk_aac encoder created
+19:07:47.131: libfdk_aac bitrate: 192, channels: 2
+19:07:47.139: ==== Recording Start ===============================================
+19:07:47.140: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/tferrer/2020-04-30 19-07-47.mp4'...
+19:09:35.034: Stopping recording due to hotkey
+19:09:35.960: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/tferrer/2020-04-30 19-07-47.mp4' stopped
+19:09:35.960: Output 'simple_file_output': stopping
+19:09:35.961: Output 'simple_file_output': Total frames output: 3238
+19:09:35.961: Output 'simple_file_output': Total drawn frames: 3265
+19:09:35.961: ==== Recording Stop ================================================
+19:09:35.970: libfdk_aac encoder destroyed
