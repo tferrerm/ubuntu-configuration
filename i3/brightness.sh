@@ -9,3 +9,7 @@ else
 fi
 
 # echo $val > /sys/class/backlight/intel_backlight/brightness
+
+# copy the backlight.rules file into /etc/udev/rules.d
+# and run `sudo usermod -aG video tferrer`
+# light is a command found in https://github.com/haikarainen/light
