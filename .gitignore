@@ -1,0 +1,21 @@
+Android Open Source Project
+Code
+configstore
+dconf/user
+ibus/bus
+JetBrains
+pulse/*.tdb
+Qt*
+Rygel
+enchant
+evolution
+gedit
+gnome-control-center
+google-chrome
+htop
+libreoffice
+monitors.xml*
+onedrive
+sublime-text-3/Cache
+sublime-text-3/Index
+sublime-text-3/Local
