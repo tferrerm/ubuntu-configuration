@@ -30,6 +30,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+exec --no-startup-id compton --config ~/.config/compton.conf -b
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -106,7 +108,7 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 "
+set $ws1 "1"
 set $ws2 "2: Browser "
 set $ws3 "3: Editor "
 set $ws4 "4: Extras "
@@ -244,7 +246,10 @@ bindsym XF86AudioPrev exec playerctl previous
 
 exec_always feh --bg-scale ~/Pictures/imac-pro-wallpaper.jpg
 exec_always ~/.config/i3/scripts/gnome_keyring.sh
+exec_always "setxkbmap -layout us,latam"
+exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
 
+# Use `xprop` command to find a program's class
 # Browsers
 assign [class="Google-chrome"] $ws2
 assign [class="Firefox"] $ws2
@@ -253,3 +258,5 @@ assign [class="Sublime_text"] $ws3
 assign [class="Code"] $ws3
 # Music
 assign [class="Spotify"] $ws10
+
+# use `lxappearance` to change GTK theme
