@@ -185,12 +185,12 @@ set $urgent-bg-color     #E53935
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          #00ff00
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+client.focused          $bg-color           $bg-color          $text-color          #79d9a3
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #79d9a3
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #79d9a3
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #79d9a3
 
-# hide_edge_borders both # window borders v/h
+hide_edge_borders both # window borders v/h
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -260,3 +260,6 @@ assign [class="Code"] $ws3
 assign [class="Spotify"] $ws10
 
 # use `lxappearance` to change GTK theme
+
+# Caps Lock i3blocks
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
