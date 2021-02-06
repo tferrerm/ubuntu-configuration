@@ -98,6 +98,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# gnome-keyring for i3
+if [ -n "$DESKTOP_SESSION" ];then
+    eval $(gnome-keyring-daemon --start)
+    export SSH_AUTH_SOCK
+fi
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
@@ -127,3 +133,5 @@ export PATH="$PATH:$HOME/flutter/flutter/bin"
 
 # ghcup-env
 [ -f "/home/tferrer/.ghcup/env" ] && source "/home/tferrer/.ghcup/env"
+
+export GIT_EDITOR=vim

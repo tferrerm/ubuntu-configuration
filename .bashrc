@@ -117,6 +117,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# gnome-keyring for i3
+if [ -n "$DESKTOP_SESSION" ];then
+    eval $(gnome-keyring-daemon --start)
+    export SSH_AUTH_SOCK
+fi
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
@@ -143,3 +149,4 @@ export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools
 # flutter
 export PATH="$PATH:$HOME/flutter/flutter/bin"
 
+export GIT_EDITOR=vim
