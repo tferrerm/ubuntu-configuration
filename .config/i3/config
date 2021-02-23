@@ -106,6 +106,12 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# screenshot
+bindsym Print exec maim ~/Pictures/Screenshot-$(date +%s).png
+
+# screenshot (cropping)
+bindsym $mod+Print exec gnome-screenshot -a
+
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
@@ -252,6 +258,7 @@ exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
 # Use `xprop` command to find a program's class
 # Browsers
 assign [class="Google-chrome"] $ws2
+assign [class="Chromium"] $ws2
 assign [class="Firefox"] $ws2
 # Editors
 assign [class="Sublime_text"] $ws3

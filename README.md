@@ -13,3 +13,6 @@ gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
 
 sudo reboot
 ```
+
+### Required utilities
+- `maim`: screenshots
