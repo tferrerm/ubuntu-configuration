@@ -204,6 +204,7 @@ bar {
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
         # status_command i3status # default program
         font pango:DejaVu Sans Mono 14
+        position top
         colors {
                 background $bg-color
                 separator #757575
@@ -252,8 +253,8 @@ bindsym XF86AudioPrev exec playerctl previous
 
 exec_always feh --bg-scale ~/Pictures/imac-pro-wallpaper.jpg
 exec_always ~/.config/i3/scripts/gnome_keyring.sh
-exec_always "setxkbmap -layout us,latam"
-exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
+exec_always setxkbmap -layout us,latam
+exec_always setxkbmap -option 'grp:alt_shift_toggle'
 
 # Use `xprop` command to find a program's class
 # Browsers
